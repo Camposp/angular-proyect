@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Home';
+  title: string;
+  bands;
+
+  constructor(){
+  this.title  = 'Home';
+  this.bands = ['Foo', 'Bar','The Rolling Stones', 'The Beatles', 'Queen'];
+  }
+
+
 }

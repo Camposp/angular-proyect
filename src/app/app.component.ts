@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,10 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string;
-  bands;
+  bands: string[];
 
   constructor(){
-  this.title  = 'Home';
+  this.title  = 'Música del Siglo XX';
   this.bands = ['Foo', 'Bar','The Rolling Stones', 'The Beatles', 'Queen'];
   }
 

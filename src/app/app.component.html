@@ -1,28 +1,11 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-     {{title}}
-  </h1>
 
-  <h2>Lista</h2>
-     <ul>
-       <li *ngFor="let band of bands">
-     {{band}}
-       </li>
-
-     </ul>
-
-
-</div>
-<!-- <h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
+<h2>{{title}}</h2>
+<ul style="text-align:justify">
+  <li *ngFor="let band of bands">
+{{band}}
   </li>
-  <li>
-    <h2><a target="_blank" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" href="http://angularjs.blogspot.ca/">Angular blog</a></h2>
-  </li>
-</ul> -->
+</ul>
+<router-outlet>
+
+</router-outlet>

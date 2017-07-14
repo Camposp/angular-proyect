@@ -2,12 +2,17 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { HomeComponent } from './home/home.component';
+import { FooComponent } from './foo/foo.component';
+import { BarComponent } from './bar/bar.component';
+import { QueenComponent } from './queen/queen.component';
+
 
 const appRoutes: Routes = [
-  { path: 'dashboard', component: DashboardComponent },
-  { path: '', component: HomeComponent }
+  { path: 'foo', component: FooComponent },
+  { path: 'bar', component: BarComponent },
+  { path: 'the-rolling-stones', component: TheRollingStonesComponent },
+  { path: 'the-beatles', component: TheBeatlesComponent },
+  { path: 'queen', component: QueenComponent }
 
 ];
 
@@ -15,8 +20,12 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent,
-    HomeComponent
+    FooComponent,
+    BarComponent,
+    TheRollingStonesComponent,
+    TheBeatlesComponent,
+    QueenComponent,
+
 
   ],
   imports: [

@@ -8,11 +8,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title: string;
-  bands: string[];
+
 
   constructor(){
   this.title  = 'Música del Siglo XX';
-  this.bands = ['Foo', 'Bar','The Rolling Stones', 'The Beatles', 'Queen'];
   }
 
 

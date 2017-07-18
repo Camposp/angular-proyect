@@ -7,7 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+title: string;
+bands: string[];
+
+constructor(){
+this.title  = 'Música del Siglo XX';
+this.bands = ['Foo', 'Bar','The Rolling Stones', 'The Beatles', 'Queen'];
+}
 
   ngOnInit() {
   }

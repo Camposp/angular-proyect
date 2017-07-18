@@ -1,0 +1,25 @@
+
+.dots{
+  font-size: 35px;
+  list-style: none;
+  padding-bottom: 25px;
+}
+
+.main{
+  border: 5px solid white;
+  border-radius: 10px;
+  text-align: center;
+  width: 50%;
+  margin: 150px 200px 20px 330px;
+}
+
+.title{
+  border-bottom: 5px solid white;
+  color: rgb(232, 186, 179,0.7);
+  font-size: 45px;
+  margin: auto;
+  padding: 30px;
+  opacity: 0.2;
+  background-color: white;
+  text-align: center;
+}

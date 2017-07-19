@@ -14,16 +14,21 @@ a {
   text-align: center;
   margin: 180px 200px 20px 200px;
   border-radius: 7px;
+  padding-bottom: 20%;
 }
 
 .btn{
   border: 1px solid white;
   padding: 10px;
-  width: 20%;
   text-align: center;
   align-self: center;
-
 }
+
+.building{
+  display: flex;
+  flex-direction: column;
+}
+
 
 .container-bands{
   display: flex;
@@ -41,6 +46,7 @@ a {
 .text-bands{
   color: #ffe6ff;
   font-size: 20px;
+  padding-bottom: 3%;
 }
 
 
